@@ -1,6 +1,10 @@
 const express = require("express");
+const cors = require("cors");
 
 const app = express();
+
+// Permitir comunicación desde Vercel / cualquier frontend
+app.use(cors());
 
 app.use(express.json());
 
