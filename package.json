@@ -1,0 +1,12 @@
+{
+  "name": "obra360-launcher-api",
+  "version": "1.0.0",
+  "description": "API para comunicación entre Vercel y Launcher de OBRA360",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
